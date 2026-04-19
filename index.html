@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WanderLust</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body class="bg-gray-100 text-black">
+
+   <header id="navbar" class="fixed top-0 left-0 w-full z-50 backdrop-blur-xl transition-all duration-300">
+    <nav class="flex items-center justify-between px-10 py-3 h-16 lg:gap-12">
+
+        <a href="#" class="text-3xl font-bold text-emerald-600 px-6 py-2 whitespace-nowrap">
+            WanderLust <i class="fa-solid fa-earth-americas"></i>
+        </a>
+
+        <div class="dropdown-menu hidden lg:flex flex-col lg:flex-row items-center gap-6
+                    absolute top-16 left-0 w-full lg:static lg:w-auto
+                    bg-[#FFFFFF90] lg:bg-transparent backdrop-blur-xl lg:backdrop-blur-none
+                    py-4 lg:py-0 text-lg font-bold">
+
+            <ul class="flex flex-col items-center gap-6 lg:flex-row lg:gap-9">
+                <li class="hover:text-emerald-500 cursor-pointer font-bold transition-colors duration-200"><a href="index.html">HOME</a></li>
+                <li class="hover:text-orange-500 cursor-pointer font-bold transition-colors duration-200"><a href="about.html">ABOUT</a></li>
+                <li class="hover:text-teal-400 cursor-pointer font-bold transition-colors duration-200"><a href="destinations.html">DESTINATIONS</a></li>
+                <li class="hover:text-purple-700 cursor-pointer font-bold transition-colors duration-200"><a href="tours.html">TOURS</a></li>
+            </ul>
+
+            <div class="flex flex-col items-center">
+                <button class="bg-blue-500 rounded-lg px-4 py-2 hover:bg-emerald-600 text-white transition-colors duration-200">
+                    Book Your Trip!!
+                </button>
+            </div>
+        </div>
+
+        <div class="toggle-button lg:hidden cursor-pointer">
+            <i class="fa-solid fa-bars fa-lg"></i>
+        </div>
+    </nav>
+   </header>
+
+
+   <section class="bg-[url(https://wallpaperaccess.com/full/488392.jpg)] bg-cover bg-center h-screen flex flex-col items-center justify-center text-white text-center px-6">
+        <h1 class="text-5xl font-bold mb-4 drop-shadow-lg">Explore The World</h1>
+        <p class="text-xl mb-8 drop-shadow-md">Discover amazing destinations and unforgettable experiences</p>
+        <button class="bg-emerald-500 hover:bg-emerald-700 text-white px-8 py-3 rounded-xl text-lg transition-colors duration-300">
+            Start Exploring <i class="fa-solid fa-arrow-right ml-2"></i>
+        </button>
+   </section>
+
+
+   <section class="py-16 px-10">
+        <h2 class="text-3xl font-bold text-center mb-10">Popular Destinations</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+            <div class="rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300">
+                <img src="https://wallpaperaccess.com/full/1131436.jpg" class="w-full h-56 object-cover"/>
+                <div class="p-4 bg-white">
+                    <h3 class="text-xl font-bold">Paris, France</h3>
+                    <p class="text-gray-500 mt-1">The city of love and lights</p>
+                    <button class="mt-3 bg-blue-500 text-white px-4 py-1 rounded-lg hover:bg-blue-700 transition-colors duration-200">Explore</button>
+                </div>
+            </div>
+
+            <div class="rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300">
+                <img src="https://wallpaperaccess.com/full/488392.jpg" class="w-full h-56 object-cover"/>
+                <div class="p-4 bg-white">
+                    <h3 class="text-xl font-bold">Santorini, Greece</h3>
+                    <p class="text-gray-500 mt-1">Beautiful sunsets and blue domes</p>
+                    <button class="mt-3 bg-blue-500 text-white px-4 py-1 rounded-lg hover:bg-blue-700 transition-colors duration-200">Explore</button>
+                </div>
+            </div>
+
+            <div class="rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300">
+                <img src="https://wallpaperaccess.com/full/1413477.jpg" class="w-full h-56 object-cover"/>
+                <div class="p-4 bg-white">
+                    <h3 class="text-xl font-bold">Tokyo, Japan</h3>
+                    <p class="text-gray-500 mt-1">Where tradition meets the future</p>
+                    <button class="mt-3 bg-blue-500 text-white px-4 py-1 rounded-lg hover:bg-blue-700 transition-colors duration-200">Explore</button>
+                </div>
+            </div>
+
+        </div>
+   </section>
+
+
+   <section class="bg-emerald-50 py-16 px-10 text-center">
+        <h2 class="text-3xl font-bold mb-10">Why Choose Us?</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+            <div class="p-6 bg-white rounded-2xl shadow-md">
+                <i class="fa-solid fa-shield-halved text-4xl text-emerald-500 mb-4"></i>
+                <h3 class="text-xl font-bold mb-2">Safe Travels</h3>
+                <p class="text-gray-500">Your safety is our top priority on every trip.</p>
+            </div>
+
+            <div class="p-6 bg-white rounded-2xl shadow-md">
+                <i class="fa-solid fa-wallet text-4xl text-blue-500 mb-4"></i>
+                <h3 class="text-xl font-bold mb-2">Best Prices</h3>
+                <p class="text-gray-500">We offer the most competitive prices around.</p>
+            </div>
+
+            <div class="p-6 bg-white rounded-2xl shadow-md">
+                <i class="fa-solid fa-headset text-4xl text-purple-500 mb-4"></i>
+                <h3 class="text-xl font-bold mb-2">24/7 Support</h3>
+                <p class="text-gray-500">We are always here to help you anytime.</p>
+            </div>
+
+        </div>
+   </section>
+
+
+   <footer class="bg-gray-800 text-white text-center py-6">
+        <p>© 2024 WanderLust. All rights reserved. <i class="fa-solid fa-earth-americas text-emerald-400"></i></p>
+   </footer>
+
+
+   <script>
+        const toggleBtn = document.querySelector(".toggle-button");
+        const dropdown = document.querySelector(".dropdown-menu");
+
+        toggleBtn.addEventListener("click", () => {
+            dropdown.classList.toggle('hidden');
+        });
+
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            const section = document.elementFromPoint(window.innerWidth / 2, 65);
+            const bg = window.getComputedStyle(section).backgroundColor;
+            navbar.style.backgroundColor = bg === 'rgba(0, 0, 0, 0)' ? 'transparent' : bg + '99';
+        });
+   </script>
+
+</body>
+</html>
